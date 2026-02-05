@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #323448;
+    width: 100%;
+    height: min-content;
+}
+
+.navbar a {
+    color: #f3f3f3;
+}
+
+.logo-navbar {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}

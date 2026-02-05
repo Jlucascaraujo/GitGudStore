@@ -1,13 +1,13 @@
 <div class="container mb-4">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         @for (item of produtos; track item.nome) {
             <div class="col-md-4 mb-3">
-                <div class="card shadow-sm">
+                <div class="card h-100 shadow-sm">
                     <div class="card-body">
-                        <img class="card-img-top" src="{{item.imagem}}" alt="imagem">
+                        <img class="card-img-top" src="{{item.imagem}}" alt="{{item.nome}}">
                         <h5 class="card-title">{{item.nome}}</h5>
                         <p class="card-text text-success">R${{item.preco}}</p>
-                        <button class="btn btn-primary w-100">Comprar</button>
+                        <button class="btn btn-primary mt-auto w-100">Comprar</button>
                     </div>
                 </div>
             </div>

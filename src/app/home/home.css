@@ -3,3 +3,11 @@
     object-fit: scale-down;
     width: 100%;
 }
+
+.card-body {
+    transition: transform 0.2s;
+}
+
+.card-body:hover {
+    transform: scale(1.05);
+}
